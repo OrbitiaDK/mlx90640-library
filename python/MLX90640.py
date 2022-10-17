@@ -3,7 +3,7 @@ from pathlib import Path
 
 import numpy as np
 
-lib_path = Path(__file__).parent / "_MLX90640.cpython-37m-arm-linux-gnueabihf.so"
+lib_path = Path(__file__).parent / "_MLX90640.cpython-39-arm-linux-gnueabihf.so"
 
 ffi = cffi.FFI()
 ffi.cdef("""
